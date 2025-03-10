@@ -1,0 +1,16 @@
+/* margin, padding 내가 넣을거임 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 리스트 앞에 점이나 숫자 x */
+ul, ol {
+    list-style: none;
+}
+
+/* 링크 아래 밑줄 x */
+a {
+    text-decoration: none;
+}
