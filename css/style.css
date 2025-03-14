@@ -18,6 +18,10 @@ header {
     z-index: 2;
 }
 
+#logo {
+    width: 100px;    
+}
+
 header h1 a {
     font: bold 24px/50px 'Sarabun';
     /* color: #555; */
@@ -163,7 +167,7 @@ footer {
         transition-duration: 0.4s;
     }
 
-    header #snb .sub_menu .hide {
+    header #snb .sub_menu.hide {
         visibility: hidden;
         opacity: 0;
     }
